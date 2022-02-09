@@ -37,7 +37,7 @@ const Navbar = () => {
 				))}
 				<li>
 					<a
-						href="https://discord.gg/vyXvJ92x"
+						href="https://discord.gg/3P5wnQjg"
 						target="_blank"
 						rel="noreferrer"
 					>
