@@ -20,9 +20,9 @@ const Welcome = () => {
 					<p className="mt-3 sm:mt-3  text-white md:w-11/12 w-11/12 font-light text-xl leading-7 text-center mg:text-left">
 						An open source, transparent community of filmmakers, entertainment
 						professionals, developers and entrepreneurs who will leverage the
-						power of Web3 to produce to produce entertaining and
-						thought-provoking movies outside of the traditional studio machines
-						such as Hollywood and Bollywood
+						power of Web3 to produce entertaining and thought-provoking movies
+						outside of the traditional studio machines such as Hollywood and
+						Bollywood
 					</p>
 
 					<a
