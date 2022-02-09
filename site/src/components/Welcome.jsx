@@ -5,8 +5,8 @@ import fallBack3d from '../assets/images/fallBack3dNft.png';
 
 const Welcome = () => {
 	return (
-		<div className="flex w-full justify-center items-center h-[85vh]">
-			<div className="flex mg:flex-row flex-col items-center justify-center mf:p-20 py-12 pt-20 px-4">
+		<div className="flex w-full justify-center items-center mg:h-[85vh]">
+			<div className="flex mg:flex-row flex-col items-center justify-center xl:p-20 py-12 px-4">
 				<div
 					className="flex flex-1 justify-center items-center mg:items-start flex-col md:mr-10"
 					data-aos="fade-right"
@@ -26,7 +26,7 @@ const Welcome = () => {
 					</p>
 
 					<a
-						href="https://docs.mediamonkeys.xyz/internal-wiki/"
+						href="https://docs.moviestudiodao.xyz/internal-wiki/"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -45,7 +45,7 @@ const Welcome = () => {
 					muted
 					width="650px"
 					height="650px"
-					className="self-start"
+					className="mg:self-start mt-8 mg:mt-0"
 					data-aos="fade-left"
 					data-aos-once="true"
 					data-aos-duration="1000"

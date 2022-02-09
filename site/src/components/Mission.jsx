@@ -23,7 +23,7 @@ const Mission = () => {
 					untold.
 				</p>
 				<a
-					href="https://docs.mediamonkeys.xyz/internal-wiki/movie-studio-dao-msdao/mission"
+					href="https://docs.moviestudiodao.xyz/internal-wiki/movie-studio-dao-msdao/mission"
 					target="_blank"
 					rel="noreferrer"
 				>
