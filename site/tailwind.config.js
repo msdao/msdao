@@ -7,6 +7,14 @@ module.exports = {
 			display: ['Open Sans', 'sans-serif'],
 			body: ['Open Sans', 'sans-serif'],
 		},
+		screens: {
+			xs: '480px',
+			sm: '640px',
+			md: '768px',
+			lg: '1024px',
+			xl: '1280px',
+			'2xl': '1536px',
+		},
 		extend: {
 			fontFamily: {
 				logo: "'Carter One', cursive",
@@ -29,6 +37,10 @@ module.exports = {
 			},
 			animation: {
 				'slide-in': 'slide-in 0.5s ease-out',
+			},
+			inset: {
+				17: '68px',
+				26: '104px',
 			},
 		},
 	},
