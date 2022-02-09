@@ -18,10 +18,17 @@ const Navbar = () => {
 	const [toggleMenu, setToggleMenu] = useState(false);
 
 	return (
-		<nav className="w-full flex md:justify-center justify-between p-4 items-center">
+		<nav
+			className="w-full flex md:justify-center justify-between p-4 items-center"
+			id="Home"
+		>
 			<div className="text-white md:flex-[0.5]  flex-initial justify-center items-center">
 				<div className="flex items-center">
-					<p className="text-2xl mr-2 font-bold text-logo">Movie Studio DAO</p>
+					<p className="text-2xl mr-2 font-bold text-logo cursor-pointer">
+						<Link to="Home" smooth={true} duration={1000}>
+							Movie Studio DAO
+						</Link>
+					</p>
 				</div>
 			</div>
 			<ul className="text-white md:flex hidden list-none justify-between items-center flex-initial">

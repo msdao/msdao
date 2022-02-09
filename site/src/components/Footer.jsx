@@ -12,7 +12,11 @@ const Footer = () => (
 		<div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
 			<div className="flex flex-[0.5] justify-center items-center">
 				<div className="flex items-center text-white">
-					<p className="text-2xl mr-2 font-bold text-logo">Movie Studio DAO</p>
+					<p className="text-2xl mr-2 font-bold text-logo cursor-pointer">
+						<Link to="Home" smooth={true} duration={1000}>
+							Movie Studio DAO
+						</Link>
+					</p>
 				</div>
 			</div>
 			<div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">

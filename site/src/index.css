@@ -93,6 +93,14 @@ body {
 	-webkit-backdrop-filter: blur(5px);
 	border: 1px solid rgba(0, 0, 0, 0.3);
 }
+.blue-timeline-glassmorphism {
+	background: rgb(39 51 89);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
 
 /* white glassmorphism */
 .white-glassmorphism {
@@ -168,7 +176,7 @@ body {
 
 @layer components {
 	.timeline-img {
-		@apply h-24 w-24 object-cover shadow-md border-4 blue-glassmorphism  rounded-full xs:absolute md:mx-auto md:left-0 md:right-0;
+		@apply h-24 w-24 object-cover shadow-md border-4 bg-gray-300 rounded-full xs:absolute md:mx-auto md:left-0 md:right-0;
 	}
 	.timeline-container {
 		@apply relative pt-2 xs:pl-28 xs:pt-0 md:w-1/2 md:ml-auto md:pl-16;
