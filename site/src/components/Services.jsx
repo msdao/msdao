@@ -32,7 +32,7 @@ const Services = () => (
 				data-aos="fade-right"
 				data-aos-duration={1000}
 			>
-				<h1 className="text-white text-3xl sm:text-5xl py-2 text-secondary-gradient sm:leading-[56px]">
+				<h1 className="text-white text-3xl sm:text-5xl py-2 text-secondary-gradient sm:leading-[56px] text-center mf:text-left">
 					Three things movie
 					<br />
 					studio will do

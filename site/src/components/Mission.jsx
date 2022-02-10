@@ -7,7 +7,7 @@ const Mission = () => {
 			id="Mission"
 		>
 			<div
-				className="flex flex-col md:p-12 py-12 px-4 items-center justify-center w-7/12"
+				className="flex flex-col md:p-12 py-12 px-4 items-center justify-center sm:w-7/12 w-11/12"
 				data-aos="zoom-out-right"
 				data-aos-duration="1000"
 			>
