@@ -22,8 +22,8 @@ const App = () => {
 				<Welcome />
 			</div>
 			<Mission />
-			<Roadmap />
 			<Services />
+			<Roadmap />
 			<Nfts />
 			<Footer />
 		</div>

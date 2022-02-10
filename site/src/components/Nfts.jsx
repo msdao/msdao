@@ -42,7 +42,7 @@ const Nfts = () => {
 					Our Nfts
 				</h3>
 				<div className="flex flex-wrap justify-center items-center mt-10">
-					{[yNftImg, gNftImg, grNftImg, vNftImg, pNftImg, tNftImg].map(
+					{[yNftImg, gNftImg, vNftImg, grNftImg, tNftImg, pNftImg].map(
 						(img, i) => (
 							<NftCard imgSrc={img} key={i + img} />
 						)

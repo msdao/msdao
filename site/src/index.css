@@ -38,21 +38,28 @@ body {
 .gradient-bg-services {
 	background-color: #0f0e13;
 	background-image: radial-gradient(
-			at 0% 0%,
+			at 0% 100%,
 			hsla(253, 16%, 7%, 1) 0,
 			transparent 50%
 		),
-		radial-gradient(at 50% 100%, #2776938f 0, transparent 50%);
+		radial-gradient(at 50% 50%, #2776935e 0, transparent 52%);
 }
 
 .gradient-bg-transactions {
+	/* background-color: #0f0e13;
+	background-image: radial-gradient(
+			at 0% 100%,
+			hsla(253, 16%, 7%, 1) 0,
+			transparent 50%
+		),
+		radial-gradient(at 50% 0%, #2776938f 0, transparent 50%); */
 	background-color: #0f0e13;
 	background-image: radial-gradient(
 			at 0% 100%,
 			hsla(253, 16%, 7%, 1) 0,
 			transparent 50%
 		),
-		radial-gradient(at 50% 0%, #2776938f 0, transparent 50%);
+		radial-gradient(at 50% 50%, #2776935e 0, transparent 52%);
 }
 
 .gradient-bg-missions {
@@ -72,7 +79,7 @@ body {
 			hsla(253, 16%, 7%, 1) 0,
 			transparent 50%
 		),
-		radial-gradient(at 50% 50%, #2776935e 0, transparent 52%);
+		radial-gradient(at 50% 57%, #ff880030 0, transparent 52%);
 }
 
 .gradient-bg-footer {

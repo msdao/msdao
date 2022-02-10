@@ -24,14 +24,21 @@ const Roadmap = () => {
 						<div className="timeline-pointer" aria-hidden="true"></div>
 						<div className="blue-glassmorphism p-6 rounded-md shadow-md">
 							<span className="font-bold text-indigo-600 text-sm tracking-wide">
-								Feb 2022
+								Q1 2022
 							</span>
 							<h1 className="text-2xl font-bold pt-1">Website Launch</h1>
-							<p className="pt-1">
+							<ul className="list-disc ml-4 pt-1">
+								<li>Whitepaper covering the governance and core values.</li>
+								<li>$MSDAO token launch on the Polygon Network.</li>
+								<li>
+									Airdrop to key contributors, core members & early adopters.
+								</li>
+							</ul>
+							{/* <p className="pt-1">
 								Whitepaper covering the governance and core values $MSDAO token
 								launch on the Polygon Network Airdrop to key contributors, core
 								members & early adopters
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>
@@ -51,11 +58,18 @@ const Roadmap = () => {
 								Q2 2022
 							</span>
 							<h1 className="text-2xl font-bold pt-1">NFT Launch </h1>
-							<p className="pt-1">
+							<ul className="list-disc ml-4 pt-1">
+								<li>
+									Community voting enabled for both NFT and Token Holders.
+								</li>
+								<li>Calls for screenplay submissions.</li>
+								<li>Begin community voting on screenplay submissions.</li>
+							</ul>
+							{/* <p className="pt-1">
 								Community voting enabled for both NFT and Token Holders Calls
 								for screenplay submissions Begin community voting on screenplay
 								submissions
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>
@@ -74,10 +88,18 @@ const Roadmap = () => {
 							<h1 className="text-2xl font-bold pt-1">
 								Greenlight the first project for production
 							</h1>
-							<p className="pt-1">
+							<ul className="list-disc ml-4 pt-1">
+								<li>Greenlight the first project for production.</li>
+								<li>
+									Commencement of pre-production with shooting planned for Q3-Q4
+									2022.
+								</li>
+								<li>Special celebrations to reward all our NFT holders.</li>
+							</ul>
+							{/* <p className="pt-1">
 								Commencement of pre-production with shooting planned for Q3-Q4
 								2022 Special celebrations to reward all our NFT holders
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>
@@ -97,10 +119,16 @@ const Roadmap = () => {
 								Q4 2022
 							</span>
 							<h1 className="text-2xl font-bold pt-1">Parternship</h1>
-							<p className="pt-1">
+							<ul className="list-disc ml-4 pt-1">
+								<li>
+									Partnerships with OTT players & other distribution platforms.
+								</li>
+								<li>Talks from industry experts & networking sessions .</li>
+							</ul>
+							{/* <p className="pt-1">
 								Partnerships with OTT players & other distribution platforms
 								Talks from industry experts & networking sessions
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>
