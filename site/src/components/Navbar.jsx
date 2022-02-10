@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-scroll';
-import { FaDiscord } from 'react-icons/fa';
+import msdLogo from '../assets/images/msdaoLogo.png';
 
 const NavBarItem = ({ title, classprops, to }) => (
 	<li
@@ -19,12 +19,13 @@ const Navbar = () => {
 
 	return (
 		<nav
-			className="w-full flex md:justify-center justify-between p-4 items-center"
+			className="w-full flex md:justify-center justify-between p-4 items-center pt-6"
 			id="Home"
 		>
 			<div className="text-white md:flex-[0.5]  flex-initial justify-center items-center">
-				<div className="flex items-center">
-					<p className="text-2xl mr-2 font-bold text-logo cursor-pointer">
+				<div className="flex items-center space-x-3">
+					<img src={msdLogo} alt="logo" className="w-11 rounded-full" />
+					<p className="text-2xl mr-2 font-bold text-logo cursor-pointer mf:text-[1.8rem]">
 						<Link to="Home" smooth={true} duration={1000}>
 							Movie Studio DAO
 						</Link>
@@ -43,9 +44,9 @@ const Navbar = () => {
 					>
 						<button
 							type="button"
-							className="flex flex-row justify-center items-center bg-[#2952e3] p-2 rounded-full cursor-pointer hover:bg-[#2546bd] ml-1"
+							className="flex flex-row justify-center items-center bg-[#2952e3] p-2 rounded-full cursor-pointer hover:bg-[#2546bd] ml-1 px-4"
 						>
-							<FaDiscord className="text-white mr-2" />
+							{/* <FaDiscord className="text-white mr-2" /> */}
 							<p className="text-white text-base font-semibold">Join Discord</p>
 						</button>
 					</a>

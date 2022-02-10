@@ -28,10 +28,10 @@ const Roadmap = () => {
 							</span>
 							<h1 className="text-2xl font-bold pt-1">Website Launch</h1>
 							<ul className="list-disc ml-4 pt-1">
-								<li>Whitepaper covering the governance and core values.</li>
-								<li>$MSDAO token launch on the Polygon Network.</li>
+								<li>Whitepaper covering the governance and core values</li>
+								<li>$MSDAO token launch on the Polygon Network</li>
 								<li>
-									Airdrop to key contributors, core members & early adopters.
+									Airdrop to key contributors, core members & early adopters
 								</li>
 							</ul>
 							{/* <p className="pt-1">
@@ -59,11 +59,9 @@ const Roadmap = () => {
 							</span>
 							<h1 className="text-2xl font-bold pt-1">NFT Launch </h1>
 							<ul className="list-disc ml-4 pt-1">
-								<li>
-									Community voting enabled for both NFT and Token Holders.
-								</li>
-								<li>Calls for screenplay submissions.</li>
-								<li>Begin community voting on screenplay submissions.</li>
+								<li>Community voting enabled for both NFT and Token Holders</li>
+								<li>Calls for screenplay submissions</li>
+								<li>Begin community voting on screenplay submissions</li>
 							</ul>
 							{/* <p className="pt-1">
 								Community voting enabled for both NFT and Token Holders Calls
@@ -89,12 +87,12 @@ const Roadmap = () => {
 								Greenlight the first project for production
 							</h1>
 							<ul className="list-disc ml-4 pt-1">
-								<li>Greenlight the first project for production.</li>
+								<li>Greenlight the first project for production</li>
 								<li>
 									Commencement of pre-production with shooting planned for Q3-Q4
-									2022.
+									2022
 								</li>
-								<li>Special celebrations to reward all our NFT holders.</li>
+								<li>Special celebrations to reward all our NFT holders</li>
 							</ul>
 							{/* <p className="pt-1">
 								Commencement of pre-production with shooting planned for Q3-Q4
@@ -121,9 +119,9 @@ const Roadmap = () => {
 							<h1 className="text-2xl font-bold pt-1">Parternship</h1>
 							<ul className="list-disc ml-4 pt-1">
 								<li>
-									Partnerships with OTT players & other distribution platforms.
+									Partnerships with OTT players & other distribution platforms
 								</li>
-								<li>Talks from industry experts & networking sessions .</li>
+								<li>Talks from industry experts & networking sessions</li>
 							</ul>
 							{/* <p className="pt-1">
 								Partnerships with OTT players & other distribution platforms

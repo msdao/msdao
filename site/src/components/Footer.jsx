@@ -7,11 +7,14 @@ import {
 	SiTelegram,
 } from 'react-icons/si';
 import { Link } from 'react-scroll';
+import msdLogo from '../assets/images/msdaoLogo.png';
+
 const Footer = () => (
 	<div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
 		<div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
 			<div className="flex flex-[0.5] justify-center items-center">
-				<div className="flex items-center text-white">
+				<div className="flex items-center text-white space-x-3">
+					<img src={msdLogo} alt="logo" className="w-11 rounded-full" />
 					<p className="text-2xl mr-2 font-bold text-logo cursor-pointer">
 						<Link to="Home" smooth={true} duration={1000}>
 							Movie Studio DAO

@@ -39,7 +39,7 @@ const Nfts = () => {
 					data-aos="zoom-in"
 					data-aos-duration="1000"
 				>
-					Our Nfts
+					Our NFTs
 				</h3>
 				<div className="flex flex-wrap justify-center items-center mt-10">
 					{[yNftImg, gNftImg, vNftImg, grNftImg, tNftImg, pNftImg].map(
