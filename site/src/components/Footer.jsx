@@ -46,9 +46,8 @@ const Footer = () => (
 			</div>
 		</div>
 		<div className="flex justify-center items-center flex-col mt-5">
-			<p className="text-white text-lg text-center">
-				Come join us and hear for the unexpected miracle
-			</p>
+// 			<p className="text-white text-lg text-center">
+// 			</p>
 			<div className="flex space-x-4 mt-3">
 				<a
 					href="https://discord.gg/3P5wnQjg"
