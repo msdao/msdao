@@ -59,7 +59,7 @@ const Services = () => (
 					title="DAO Governance "
 					icon={<MdBallot fontSize={21} className="text-white" />}
 					duration={2500}
-					subtitle="Claim your governance and voting Rights in the DAO using unstated NFT and the MSDAO token. Have a say in all key partnership and treasury decisions"
+					subtitle="Claim your governance and voting Rights in the DAO using unstaked NFT and the MSDAO token. Have a say in all key partnership and treasury decisions"
 				/>
 			</div>
 		</div>
