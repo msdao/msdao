@@ -49,7 +49,7 @@ const Footer = () => (
 			{/* <p className="text-white text-lg text-center">		</p> */}
 			<div className="flex space-x-4 mt-3">
 				<a
-					href="https://discord.gg/3P5wnQjg"
+					href="https://discord.gg/nwc8ytv4Z9"
 					className="text-xl hover:bg-[#7289DA] rounded-full hover:text-white transition-colors duration-300 inline-block p-1 text-[#7289DA]"
 					target="_blank"
 					rel="noreferrer"
