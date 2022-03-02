@@ -1,4 +1,5 @@
 import React from 'react';
+import * as ga from '../lib/googleAnalytics';
 
 const Mission = () => {
 	return (
@@ -26,6 +27,7 @@ const Mission = () => {
 					href="https://docs.moviestudiodao.xyz/internal-wiki/movie-studio-dao-msdao/mission"
 					target="_blank"
 					rel="noreferrer"
+					onClick={(e) => ga.linkClick(e)}
 				>
 					<button
 						type="button"
