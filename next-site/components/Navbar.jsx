@@ -3,7 +3,7 @@ import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 import Image from 'next/image';
-// import msdLogo from '../assets/images/msdaoLogo.png';
+import * as ga from '../lib/googleAnalytics';
 
 const NavBarItem = ({ title, classprops, to }) => (
 	<li
@@ -48,6 +48,7 @@ const Navbar = () => {
 						href="https://discord.gg/nwc8ytv4Z9"
 						target="_blank"
 						rel="noreferrer"
+						onClick={(e) => ga.linkClick(e)}
 					>
 						<button
 							type="button"

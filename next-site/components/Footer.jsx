@@ -8,7 +8,7 @@ import {
 	SiTelegram,
 } from 'react-icons/si';
 import { Link } from 'react-scroll';
-// import msdLogo from '../assets/images/msdaoLogo.png';
+import * as ga from '../lib/googleAnalytics';
 
 const Footer = () => (
 	<div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
@@ -60,6 +60,14 @@ const Footer = () => (
 					className="text-xl hover:bg-[#7289DA] rounded-full hover:text-white transition-colors duration-300 inline-block p-1 text-[#7289DA]"
 					target="_blank"
 					rel="noreferrer"
+					onClick={(e) =>
+						ga.linkClick({
+							target: {
+								innerText: 'Discord',
+								href: e.target.href,
+							},
+						})
+					}
 				>
 					<SiDiscord className="text-2xl cursor-pointer" />
 				</a>
@@ -68,6 +76,14 @@ const Footer = () => (
 					className="text-xl hover:bg-[#1DA1F2] rounded-full text-[#1DA1F2] hover:text-white transition-colors duration-300 inline-block p-1 "
 					target="_blank"
 					rel="noreferrer"
+					onClick={(e) =>
+						ga.linkClick({
+							target: {
+								innerText: 'Twitter',
+								href: e.target.href,
+							},
+						})
+					}
 				>
 					<SiTwitter className="text-2xl cursor-pointer" />
 				</a>
@@ -76,6 +92,14 @@ const Footer = () => (
 					className="text-xl hover:bg-[#FF5700] rounded-full hover:text-white transition-colors duration-300 inline-block p-1 text-[#FF5700]"
 					target="_blank"
 					rel="noreferrer"
+					onClick={(e) =>
+						ga.linkClick({
+							target: {
+								innerText: 'Reddit',
+								href: e.target.href,
+							},
+						})
+					}
 				>
 					<SiReddit className="text-2xl cursor-pointer" />
 				</a>
@@ -84,6 +108,14 @@ const Footer = () => (
 					className="text-xl hover:bg-[#C13584] rounded-full hover:text-white transition-colors duration-300 inline-block p-1 text-[#C13584]"
 					target="_blank"
 					rel="noreferrer"
+					onClick={(e) =>
+						ga.linkClick({
+							target: {
+								innerText: 'Instagram',
+								href: e.target.href,
+							},
+						})
+					}
 				>
 					<SiInstagram className="text-2xl cursor-pointer" />
 				</a>
@@ -92,6 +124,14 @@ const Footer = () => (
 					className="text-xl hover:bg-[#0088cc] rounded-full hover:text-white transition-colors duration-300 inline-block p-1 text-[#0088cc]"
 					target="_blank"
 					rel="noreferrer"
+					onClick={(e) =>
+						ga.linkClick({
+							target: {
+								innerText: 'Telegram',
+								href: e.target.href,
+							},
+						})
+					}
 				>
 					<SiTelegram className="text-2xl cursor-pointer" />
 				</a>
@@ -104,6 +144,7 @@ const Footer = () => (
 					href="https://twitter.com/aMovieStudioDAO"
 					target={'_blank'}
 					rel="noreferrer"
+					onClick={(e) => ga.linkClick(e)}
 				>
 					@aMovieStudioDAO
 				</a>

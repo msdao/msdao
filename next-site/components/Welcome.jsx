@@ -1,7 +1,6 @@
 import React from 'react';
 import { IoNewspaperOutline } from 'react-icons/io5';
-// import Web3dNft from '../assets/videos/3dNftC.webm';
-// import fallBack3d from '../assets/images/fallBack3dNft.png';
+import * as ga from '../lib/googleAnalytics';
 
 const Welcome = () => {
 	return (
@@ -29,6 +28,7 @@ const Welcome = () => {
 						href="https://docs.moviestudiodao.xyz/internal-wiki/"
 						target="_blank"
 						rel="noreferrer"
+						onClick={(e) => ga.linkClick(e)}
 					>
 						<button
 							type="button"
