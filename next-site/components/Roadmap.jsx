@@ -132,7 +132,7 @@ const Roadmap = () => {
 							<span className="font-bold text-indigo-600 text-sm tracking-wide">
 								Q4 2022
 							</span>
-							<h1 className="text-2xl font-bold pt-1">Parternship</h1>
+							<h1 className="text-2xl font-bold pt-1">Partnership</h1>
 							<ul className="list-disc ml-4 pt-1">
 								<li>
 									Partnerships with OTT players & other distribution platforms
