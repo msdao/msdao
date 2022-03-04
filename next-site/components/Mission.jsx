@@ -16,12 +16,12 @@ const Mission = () => {
 					Mission
 				</h3>
 				<p className="text-white text-center my-3">
-					Movie Studio DAO's mission is to become a community-run film studio
-					which finances and produces films from talented creatives overlooked
-					by the big *ollywood studio machines. The community will vote on which
-					scripts to produce, hire filmmakers based on their vision and talent
-					(and not their connections), and tell the stories that otherwise go
-					untold.
+					Movie Studio DAO&apos;s mission is to become a community-run film
+					studio which finances and produces films from talented creatives
+					overlooked by the big *ollywood studio machines. The community will
+					vote on which scripts to produce, hire filmmakers based on their
+					vision and talent (and not their connections), and tell the stories
+					that otherwise go untold.
 				</p>
 				<a
 					href="https://docs.moviestudiodao.xyz/internal-wiki/movie-studio-dao-msdao/mission"

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-scroll';
-import Image from 'next/image';
 import * as ga from '../lib/googleAnalytics';
 
 const NavBarItem = ({ title, classprops, to }) => (
@@ -25,12 +24,10 @@ const Navbar = () => {
 		>
 			<div className="text-white md:flex-[0.5]  flex-initial justify-center items-center">
 				<div className="flex items-center space-x-3">
-					<Image
+					<img
 						src={'/assets/images/msdaoLogo.png'}
 						alt="logo"
 						className="w-11 rounded-full"
-						height={32.75}
-						width={44}
 					/>
 					<p className="text-2xl mr-2 font-bold text-logo cursor-pointer mf:text-[1.8rem]">
 						<Link to="Home" smooth={true} duration={1000}>

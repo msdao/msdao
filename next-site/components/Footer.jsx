@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import {
 	SiDiscord,
@@ -15,12 +14,10 @@ const Footer = () => (
 		<div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
 			<div className="flex flex-[0.5] justify-center items-center">
 				<div className="flex items-center text-white space-x-3">
-					<Image
+					<img
 						src={'/assets/images/msdaoLogo.png'}
 						alt="logo"
 						className="w-11 rounded-full"
-						height={32.75}
-						width={44}
 					/>
 					<p className="text-2xl mr-2 font-bold text-logo cursor-pointer">
 						<Link to="Home" smooth={true} duration={1000}>
