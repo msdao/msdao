@@ -12,16 +12,17 @@ const Welcome = () => {
 					data-aos-once="true"
 					data-aos-duration="1000"
 				>
-					<h1 className="text-3xl sm:text-5xl text-white text-gradient py-1 font-semibold sm:leading-[58px] text-center mg:text-left">
-						World’s first crypto <br /> native, decentralized
-						<br /> Movie Studio
+					<h1 className="text-3xl sm:text-4xl text-white text-gradient py-1 font-semibold sm:leading-[40px] text-center mg:text-left mb-1">
+						Community Funded Filmmaking
 					</h1>
-					<p className="mt-3 sm:mt-3  text-white md:w-11/12 w-11/12 font-light text-xl leading-7 text-center mg:text-left">
+					<h1 className="text-3xl sm:text-3xl text-white text-secondary-gradient py-1 font-semibold sm:leading-[38px] text-center mg:text-left">
+						World’s First Crypto-native , Decentralized Movie Studio
+					</h1>
+					<p className="mt-3 sm:mt-2  text-white md:w-11/12 w-11/12 font-light text-xl leading-7 text-center mg:text-left">
 						An open source, transparent community of filmmakers, entertainment
 						professionals, developers and entrepreneurs who will leverage the
-						power of Web3 to produce entertaining and thought-provoking movies
-						outside of the traditional studio machines such as Hollywood and
-						Bollywood
+						power of Web3 to fund and produce entertaining and thought-provoking
+						movies outside of the traditional *ollywood studio machines.
 					</p>
 
 					<a

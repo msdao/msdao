@@ -1,7 +1,8 @@
 import React from 'react';
 import { GrMoney } from 'react-icons/gr';
-import { BiSearchAlt } from 'react-icons/bi';
+import { BiSearchAlt, BiCameraMovie, BiMoviePlay } from 'react-icons/bi';
 import { MdBallot } from 'react-icons/md';
+import { RiMovie2Fill } from 'react-icons/ri';
 
 const ServiceCard = ({ color, title, icon, subtitle, duration }) => (
 	<div
@@ -33,33 +34,34 @@ const Services = () => (
 				data-aos-duration={1000}
 			>
 				<h1 className="text-white text-3xl sm:text-5xl py-2 text-secondary-gradient sm:leading-[56px] text-center mf:text-left">
-					Three things movie
+					{/* Three things movie
 					<br />
-					studio will do
+					studio will do */}
+					The MSDAO Ecosystem
 				</h1>
 			</div>
 
 			<div className="flex-1 flex flex-col justify-start items-center">
 				<ServiceCard
 					color="bg-yellow-400"
-					title="Funding the movie"
+					title="MSDAO Funding"
 					icon={<GrMoney fontSize={21} className="text-white" />}
 					duration={1500}
-					subtitle="Empowering the community to make movie production decisions which include voting on which script to produce, paying the screenwriter with treasury funds, where to hold the premiere etc."
+					subtitle="MSDAO Funding provides filmmakers and other creatives a platform for funding and community-building"
 				/>
 				<ServiceCard
 					color="bg-[#8945F8]"
-					title="NFT membership and perks"
-					icon={<BiSearchAlt fontSize={21} className="text-white" />}
+					title="MSDAO Studios"
+					icon={<BiMoviePlay fontSize={21} className="text-white" />}
 					duration={2000}
-					subtitle="NFT hodlers will not just hold membership, but will also be eligible to claim a benefit for each film produced by staking their NFT(s). The combined points values of the NFT(s) will determine the Perk that can be claimed "
+					subtitle="MSDAO Studios is the production company of MSDAO. The MSDAO community will participate in all aspects of an original MSDAO Studios production"
 				/>
 				<ServiceCard
 					color="bg-[#F84550]"
-					title="DAO Governance "
+					title="MS EnDAOment"
 					icon={<MdBallot fontSize={21} className="text-white" />}
 					duration={2500}
-					subtitle="Claim your governance and voting Rights in the DAO using unstaked NFT and the MSDAO token. Have a say in all key partnership and treasury decisions"
+					subtitle="Ten Percent of the MSDAO year-end treasury will be used to fund Social Good Projects via the MS En-DAO-ment Initiative"
 				/>
 			</div>
 		</div>
