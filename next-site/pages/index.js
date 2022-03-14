@@ -9,6 +9,7 @@ import {
 	Services,
 	Welcome,
 } from '../components';
+import DiscordFloatingIcon from '../components/DiscordFloatingIcon';
 
 export default function Home() {
 	return (
@@ -50,6 +51,7 @@ export default function Home() {
 				<link rel="apple-touch-icon" href="/logo.png" />
 				<title>Movie Studio DAO</title>
 			</Head>
+			<DiscordFloatingIcon />
 			<div className="gradient-bg-welcome">
 				<Navbar />
 				<Welcome />

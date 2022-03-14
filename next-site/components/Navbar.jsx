@@ -90,6 +90,18 @@ const Navbar = () => {
 								classprops="my-2 text-lg"
 							/>
 						))}
+						<a
+							href="https://discord.gg/nwc8ytv4Z9"
+							target="_blank"
+							rel="noreferrer"
+							onClick={(e) => ga.linkClick(e)}
+						>
+							<li
+								className={`mx-4 cursor-pointer font-bold text-gray-200 hover-underline-animation`}
+							>
+								Join Our Discord
+							</li>
+						</a>
 					</ul>
 				)}
 			</div>
